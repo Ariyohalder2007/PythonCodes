@@ -8,6 +8,6 @@ for k, i in d.items():
             count=1
             break
         else:
-            count=0
+            count = 0
     if count==0:
         print(k, i)
