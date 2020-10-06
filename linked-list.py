@@ -9,12 +9,13 @@ class SLinkedList:
     def display(self):
         printval=self.headval
         while printval is not None:
-            print(printval.data, end=" ")
+            print(printval.data)
             printval=printval.nextval
     def insertAtbeginning(self,newdata):
         newnode=Node(newdata)
         newnode.nextval=self.headval
         self.headval=newnode
+   
 
 
 
