@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Registration</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        h1{
+            font-size: 3rem;
+            font-family: sans-serif;
+        }
+        form input{
+            font-size: 1.2rem;
+            padding: 5px;
+            margin: 5px;
+            outline: none;
+            /* border: none; */
+            border-radius: 20px;
+            text-align: center;
+        }
+        form button{
+            font-size: 1.2rem;
+            padding: 5px;
+            margin: 5px;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            background-color: black;
+        }
+        form button:hover{
+            color: black;
+            background-color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Registration</h1>
+    <form action="post">
+        <input type="text" placeholder="Your Name" name="name">
+        <input type="text" placeholder="Your Stream" name="stream">
+        <input type="text" placeholder="Your College" name="college">
+        <input type="phone" placeholder="Your Phone N.O." name="phone">
+        <button type="submit">Submit</button>
+
+    </form>
+    </div>
+
+</body>
+</html>
